@@ -1,0 +1,77 @@
+
+background yes
+double_buffer yes
+
+alignment top_right
+
+border_width 1
+cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+
+gap_x 10
+gap_y 10
+net_avg_samples 2
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+
+own_window yes
+own_window_class Conky
+own_window_type override
+own_window_transparent yes
+own_window_colour 000000
+own_window_argb_visual no
+own_window_argb_value 0
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+minimum_size 170 0
+stippled_borders 0
+update_interval 2.0
+uppercase no
+use_spacer none
+
+show_graph_scale no
+show_graph_range no
+
+use_xft yes
+xftalpha 0.8
+#xftfont Terminus (TTF):size=10
+xftfont Sans:size=8
+
+color0 bfbfbf
+color1 bfbfbf
+color2 6c70a6
+
+TEXT
+${color2}Statham
+${color1}uptime:  ${color0}$uptime
+${color1}local:   ${if_existing /proc/net/route wlp7s0}${addr wlp7s0}${else}${if_existing /proc/net/route enp8s0}${addr ensp8s0}${else}network disconnected
+${endif}${endif}
+${color1}public: ${color0}${execi 3600 wget -q -O /dev/stdout http://checkip.dyndns.org/ | cut -d : -f 2- | cut -d \< -f -1}
+${stippled_hr 2 1}
+${color2}CPU
+${color1}Intel i5-5200U @ 2.7GHz
+${color1}freq: ${color0}${freq}Mhz ${alignr}${exec sensors | grep ^temp1 | tail -n 1 |awk '{print $2}'}
+${color1}core 1: ${color0}${cpu cpu1}% ${alignr}${cpubar cpu1 6,135}
+${color1}core 2: ${color0}${cpu cpu2}% ${alignr}${cpubar cpu2 6,135}
+${color1}core 3: ${color0}${cpu cpu3}% ${alignr}${cpubar cpu3 6,135}
+${color1}core 4: ${color0}${cpu cpu4}% ${alignr}${cpubar cpu4 6,135}
+${stippled_hr 2 1}
+${color2}Memory
+${color1}ram: ${color0}$memperc%${alignr}${membar 6,135}
+$alignr $mem / $memmax
+${top_mem name 1} ${alignr}${top_mem mem_res 1}
+${top_mem name 2} ${alignr}${top_mem mem_res 2}
+${top_mem name 3} ${alignr}${top_mem mem_res 3}
+${stippled_hr 2 1}
+${color2}Storage
+${color1}SSD ${alignr}${color0}${fs_free /}/${fs_size /}
+${fs_bar /}
+${stippled_hr 2 1}
