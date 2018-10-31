@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ -z $1 ];then
+   echo "Usage: $0 [reboot|halt]"
+   exit
+fi
+if [ $1 = reboot ];then
+   zenity --height=10 --width=10 --icon-name='system-reboot' --question --ok-label='yes please' --cancel-label='no thank you' --text 'reboot cherokee?' && sudo /sbin/reboot
+elif [ $1 = halt ];then
+   zenity --height=10 --width=10 --icon-name='system-shutdown' --question --ok-label='yes please' --cancel-label='no thank you' --text 'shutdown cherokee?' && sudo /sbin/halt -p
+fi
