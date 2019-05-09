@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/cherokee1/turner/pictures/wallpapers/071 - qdi0Yk1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e212e",
+        "foreground": "#dad4cf",
+        "cursor": "#dad4cf"
+    },
+    "colors": {
+        "color0": "#0e212e",
+        "color1": "#4F97B1",
+        "color2": "#6D9BAF",
+        "color3": "#7DADC0",
+        "color4": "#9B9697",
+        "color5": "#90ABB6",
+        "color6": "#AFB7BA",
+        "color7": "#dad4cf",
+        "color8": "#989490",
+        "color9": "#4F97B1",
+        "color10": "#6D9BAF",
+        "color11": "#7DADC0",
+        "color12": "#9B9697",
+        "color13": "#90ABB6",
+        "color14": "#AFB7BA",
+        "color15": "#dad4cf"
+    }
+}

@@ -1,0 +1,55 @@
+# colors
+
+set notification-error-bg       "#f2241f" # Red
+set notification-error-fg       "#f8f8f8" # Foreground
+set notification-warning-bg     "#ffb86c" # Orange
+set notification-warning-fg     "#2d9574" # Selection
+set notification-bg             "#1f2022" # Background
+set notification-fg             "#f8f8f8" # Foreground
+
+set completion-bg               "#1f2022" # Background
+set completion-fg               "#6272a4" # Comment
+set completion-group-bg         "#1f2022" # Background
+set completion-group-fg         "#6272a4" # Comment
+set completion-highlight-bg     "#2d9574" # Selection
+set completion-highlight-fg     "#f8f8f8" # Foreground
+
+set index-bg                    "#1f2022" # Background
+set index-fg                    "#f8f8f8" # Foreground
+set index-active-bg             "#2d9574" # Current Line
+set index-active-fg             "#f8f8f8" # Foreground
+
+set inputbar-bg                 "#1f2022" # Background
+set inputbar-fg                 "#f8f8f8" # Foreground
+set statusbar-bg                "#1f2022" # Background
+set statusbar-fg                "#f8f8f8" # Foreground
+
+set highlight-color             "#b1951d" # Orange
+set highlight-active-color      "#2d9574" # Pink
+
+set default-bg                  "#1f2022" # Background
+set default-fg                  "#f8f8f8" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#1f2022" # Background
+set render-loading-bg           "#f8f8f8" # Foreground
+
+# Recolor mode settings
+#
+#
+set recolor-lightcolor          "#1f2022" # Background
+set recolor-darkcolor           "#f8f8f8" # Foreground
+
+# Startup options
+#
+#
+set adjust-open width
+set recolor true
+
+map <Left> navigate previous
+map <Right> navigate next
+map <C-=> zoom in
+map <C--> zoom out
+map B jumplist backward
+map b jumplist forward
+map i recolor false

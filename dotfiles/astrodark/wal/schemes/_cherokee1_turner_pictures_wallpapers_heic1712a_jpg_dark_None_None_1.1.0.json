@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/cherokee1/turner/pictures/wallpapers/heic1712a.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0F10",
+        "foreground": "#c9c3c2",
+        "cursor": "#c9c3c2"
+    },
+    "colors": {
+        "color0": "#0E0F10",
+        "color1": "#4F4D4D",
+        "color2": "#6A6361",
+        "color3": "#B65D46",
+        "color4": "#88766D",
+        "color5": "#978579",
+        "color6": "#6F7F94",
+        "color7": "#c9c3c2",
+        "color8": "#8c8887",
+        "color9": "#4F4D4D",
+        "color10": "#6A6361",
+        "color11": "#B65D46",
+        "color12": "#88766D",
+        "color13": "#978579",
+        "color14": "#6F7F94",
+        "color15": "#c9c3c2"
+    }
+}
