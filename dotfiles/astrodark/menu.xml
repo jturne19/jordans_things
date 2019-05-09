@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="terminal">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="files">
+    <action name="Execute"><execute>pcmanfm</execute></action>
+  </item>
+  <!-- <item label="Web browser">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item> -->
+
+  <!-- This requires the presence of the 'openbox-menu' package to work -->
+  <menu id="/Debian" />
+  <separator />
+  <menu id="applications-menu" label="applications" execute="/usr/bin/obamenu"/>
+  <separator />
+  <item label="config openbox">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <item label="reconfigure openbox">
+    <action name="Reconfigure" />
+  </item>
+  <item label="restart openbox">
+    <action name="Restart" />
+  </item>
+  <separator />
+  <item label="exit openbox">
+    <action name="Exit" />
+  </item>
+
+  <item label="reboot cherokee">
+    <action name="Execute">
+      <prompt>
+        you wanna reboot this bad boy?
+      </prompt>
+      <execute>
+        sudo shutdown -r now
+      </execute>
+    </action>
+  </item>
+
+  <item label="shutdown cherokee">
+    <action name="Execute">
+      <prompt>
+        shut this bad boy down?
+      </prompt>
+      <execute>
+        sudo shutdown -h now
+      </execute>
+    </action>
+  </item>
+
+</menu>
+
+</openbox_menu>
