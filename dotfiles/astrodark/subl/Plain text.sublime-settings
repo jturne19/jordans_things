@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"changelog",
+		"contributing",
+		"license",
+		"readme"
+	]
+}

@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the LaTeX syntax
+{
+	"font_face": "Hack",
+	"font_size": 9,
+	"spell_check": true
+}

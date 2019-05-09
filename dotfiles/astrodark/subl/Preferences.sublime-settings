@@ -1,0 +1,20 @@
+{
+	"added_words":
+	[
+		"astrometry",
+		"pointings",
+		"submillimeter",
+		"metallicity"
+	],
+	"color_scheme": "Packages/jordan-color/AstroDark.tmTheme",
+	"font-size": 8,
+	"font_face": "gohup",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Devastate.sublime-theme",
+	"translate_tabs_to_space": false
+}
