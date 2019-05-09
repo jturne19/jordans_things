@@ -1,3 +1,0 @@
-tint2 fonts
-
-gohufont 6
