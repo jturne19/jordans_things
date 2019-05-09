@@ -1,0 +1,26 @@
+# programs to run when openbox is started
+
+# set xrandr for dual monitors
+xrandr --output DisplayPort-0 --primary --mode 2560x1080 --pos 1680x0 --rotate normal --output VGA-1-0 --off --output DVI-1-1 --off --output DVI-0 --mode 1680x1050 --pos 0x0 --rotate normal --output HDMI-1-0 --off &
+
+# start tint2
+tint2 &
+
+# set background
+/home/turner/.fehbg &
+
+# persistent pywal settings
+#wal -R &
+wal --theme base16-spacemacs
+
+# start volume slider
+pnmixer &
+
+# start xcompmgr
+#xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+
+# start compton
+compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 -b &
+
+# start urxvt daemon
+urxvtd -q -o -f
