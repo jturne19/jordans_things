@@ -1,0 +1,16 @@
+{ 
+  "theme": "/home/turner/.config/powerline-shell/themes/jordan.py",
+  "segments": [
+    "username", 
+    "hostname", 
+    "ssh", 
+    "cwd",
+    "virtual_env",
+    "root"
+
+  ],
+  "mode": "patched",
+  "cwd": {
+    "max_depth": 2
+  }
+}
