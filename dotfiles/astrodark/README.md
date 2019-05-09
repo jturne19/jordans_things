@@ -9,6 +9,8 @@
 ~/.spicetify/
 ~/.urxvt/sequences
 
+~/.cache/wal
+
 ~/.config/neofetch/config.conf
 ~/.config/neofetch/ascii
 ~/.config/openbox/autostart
@@ -25,5 +27,4 @@
 ~/.config/sublime-text-3/Packages/User/Plain text.sublime-settings
 ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 ~/.config/tint2/tint2rc
-~/.config/wal
 ~/.config/zathura/zathurarc
