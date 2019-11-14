@@ -1,0 +1,7 @@
+XTerm.termName: xterm-256color
+XTerm.vt100.faceName: -*-tewi-medium-*-*-*-11-*-*-*-*-*-*-*
+XTerm.vt100.saveLines: 4096
+XTerm*utf8: 1
+XTerm*cursorBlink: true
+
+XTerm*background: #1f2022

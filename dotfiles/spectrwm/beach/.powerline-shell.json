@@ -1,0 +1,11 @@
+{
+  "theme": "/home/jordan/.config/powerline-shell/themes/simple.py",
+  "segments": [ 
+    "cwd",
+    "root"
+  ],
+  "mode": "flat",
+  "cwd": {
+    "mode":"dironly"
+  }
+}
