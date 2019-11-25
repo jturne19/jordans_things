@@ -1,0 +1,24 @@
+# programs to run when openbox is started
+xrdb -merge /home/turner/.Xresources &
+
+# set xrandr for dual monitors
+/home/turner/.screenlayout/default.sh
+
+# start tint2
+tint2 &
+
+# set background
+/home/turner/.fehbg &
+
+# persistent pywal settings
+#wal -R &
+#wal --theme base16-spacemacs
+
+# start volume slider
+pnmixer &
+
+# start compton
+compton -b &
+
+# start urxvt daemon
+urxvtd -q -o -f

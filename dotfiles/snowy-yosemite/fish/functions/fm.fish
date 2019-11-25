@@ -1,0 +1,3 @@
+function fm
+	ranger
+end
