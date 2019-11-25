@@ -317,14 +317,14 @@ function fish_greeting
     set tt (date "+%H")
     if test $tt -lt 12
         set_color purple
-        echo "good morning jordan 滛 | " (date "+%FT%H:%M:%S")
-    else if test $tt -gt 12 
+        echo "good morning jordan 滛 | " (date "+%F %H:%M:%S")
+    else if test $tt -ge 12 
         and test $tt -lt 18
         set_color green
-        echo "good afternoon jordan 杖 | " (date "+%FT%H:%M:%S")
-    else if test $tt -gt 18
+        echo "good afternoon jordan 杖 | " (date "+%F %H:%M:%S")
+    else if test $tt -ge 18
         set_color blue
-        echo "good evening jordan 望 | " (date "+%FT%H:%M:%S")
+        echo "good evening jordan 望 | " (date "+%F %H:%M:%S")
     end
 end
 
