@@ -1,0 +1,19 @@
+URxvt.termName: 		rxvt-unicode-256color
+URxvt.font: 			xft:gohup:pixelsize=10
+
+URxvt.perl-ext-common:	default,matcher,ibeamcursor
+URxvt.urlLauncher:		brave-browser
+URxvt.matcher.button:	1
+
+URxvt.scrollstyle: 		plain
+URxvt.scrollBar:		False
+URxvt.saveLines: 		4096
+
+URxvt.internalBorder: 	2
+URxvt.externalBorder: 	0
+URxvt.borderLess:		True
+URxvt.geometry: 		92x30
+
+URxvt*depth:			32
+URxvt*background:       [65]#1f2022
+URxvt*borderColor: 		[65]#1f2022
