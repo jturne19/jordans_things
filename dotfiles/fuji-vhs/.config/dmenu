@@ -1,0 +1,1 @@
+dmenu_run -w 200 -l 61 -i -o 0.95 -fn "Overpass-8:Bold" -nf "#1a1a1a" -nb "#ece3d5" -sb "#1b9349" -bw 2 -bc "#48484b"
