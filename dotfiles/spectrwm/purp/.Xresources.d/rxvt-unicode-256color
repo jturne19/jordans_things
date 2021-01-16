@@ -1,0 +1,17 @@
+URxvt.termName:			rxvt-unicode-256color
+URxvt.reverseVideo:		True
+URxvt.font:				xft:BlexMono Nerd Font:style=Bold:pixelsize=11:antialias=true
+
+URxvt.perl-ext-common:	default,matcher,ibeamcursor
+URxvt.urlLauncher:		brave-browser
+URxvt.matcher.button:	1
+URxvt.scrollBar:		false
+URxvt.scrollBar_right:	false
+
+URxvt.saveLines:		4096
+URxvt.internalBorder:	20
+URxvt.externalBorder:	0
+
+URxvt.depth: 			32	
+URxvt*borderColor:		[90]#b8b894
+URxvt*foreground:		#fef9e2

@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Colorsublime",
+		"Conky.tmLanguage",
+		"Devastate",
+		"DevastateMini",
+		"fish",
+		"Generic Config",
+		"INI",
+		"KeyboardSpellCheck",
+		"LaTeXTools",
+		"Markdown HTML Preview",
+		"Notes",
+		"Package Control",
+		"RemoteSubl",
+		"rsub"
+	]
+}

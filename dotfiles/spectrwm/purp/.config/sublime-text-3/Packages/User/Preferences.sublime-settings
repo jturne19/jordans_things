@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/User/Themes/sexy-pop.tmTheme",
+	"font_face": "BlexMono Nerd Font Bold",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Devastate.sublime-theme"
+}
